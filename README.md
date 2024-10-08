@@ -1,7 +1,22 @@
 # Reinforcment Learning with Atari Tennis
 The purpose of this repository is to explore how to play Atari Tennis using single and multi-agent reinforcement learning systems
 
+## Single-Agents
+
+### Deep Q Networks (DQN)
 ![](/Images/dqn_atari_tennis.gif)
+
+### Results
+Hardware: Google Colab T4
+
+| Model Type | Average Reward | Training Time | Total Training Steps |
+|------------|----------------|---------------|----------------------|
+| PPO        |                |               |                      |
+| SAC        |                |               |                      |
+| DQN        |                |               |                      | 
+
+## Multi-Agents
+
 
 ## Training Notes
 - Set `ent_coef` for PPO as it encourages exploration of other actions. Stable Baselines3 defaults the value to 0.0. [More Information](https://www.youtube.com/watch?v=1ppslywmIPs)
